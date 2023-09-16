@@ -8,23 +8,35 @@
     <link rel="stylesheet" href="../cssdocs/index.css">
 </head>
 <body>
+
+    <div class="floating-icon"> 
+        <i class="fa-brands fa-square-whatsapp" ></i>
+    </div>
     <header>
         <nav class="navigat">
-            <div class="logo"><a href="#"><img src="../imges/logo/logo.jpg" alt=""></a></div>
+            <div class="logo">
+                <a href="index.html">
+                <img src="../imges/logo/logo.jpg" class="logo-img" alt="">
+            </a>
+            </div> 
+            <input type="checkbox" id="checkbox_toggle" />
+            <label for="checkbox_toggle" class="hamburger">&#9776;</label>
             <div class="menulist">
                 <ul>
-                    <li><a href="#"  class="item">HOME</a></li>
-                    <li><a href="#"  class="item">SECONDARY PROPERTY</a></li>
-                    <li><a href="#"  class="item">OFF PLAN</a></li>
-                    <div class="dropdown">
-                        <button class="dropbtn">PROPERTIES <i class="fa-solid fa-caret-down"></i>
-                        </button>
+                    <li><a href="#" class="item">HOME</a></li>
+                    <li><a href="#" class="item">SECONDARY PROPERTY</a></li>
+                    <li><a href="#" class="item">OFF PLAN</a></li>
+                    <li  class="dropdown">
+                        <a class="dropbtn">
+                            PROPERTIES 
+                            <i class="fa-solid fa-caret-down"></i>
+                        </a>
                         <div class="dropdown-content">
                           <a href="#">Link 1</a> 
                           <a href="#">Link 2</a>
                           <a href="#">Link 3</a>
                         </div>
-                      </div> 
+                      </li> 
                         
                     <li><a href="#"  class="item">ABOUT US</a></li>
                     <li><a href="#"  class="item">CONTACT US</a></li>
@@ -37,8 +49,8 @@
     </header>
 
     <div class="hero">
-        <div class="hero-text">
-            <p>Find Your Dream Home By Azgard Properties</p>
+        <div >
+            <div class="hero-text"><p>Find Your Dream Home By Azgard Properties</p></div>
         </div>
 
         <div class="hero-serchingarea">
@@ -55,7 +67,7 @@
                         <option value="property4">type4</option>
                       </select>
                       <input type="search" name="" class="searchbar" id="searchbar" placeholder="City Neighbourhood, Community">
-                      <a href="#">Search</a>
+                      <a href="#" class="searchbtn">Search</a>
                 </div>
             </form>
         </div>
@@ -94,20 +106,20 @@
                 </div>
             </div>
 
-            <div class="card2">
+            <div class="card">
                 <img src="../imges/cards/card2.jfif" alt="">
-                <p class="sale2">For Sale</p>
-                <p class="time2">Latest</p>
-                <p class="price2">AED 720,000.00</p>
-                <div class="about2">
+                <p class="sale">For Sale</p>
+                <p class="time">Latest</p>
+                <p class="price">AED 720,000.00</p>
+                <div class="about">
                     <h2><strong>Faishonz</strong></h2>
-                    <div class="flexing2">
-                        <div class="icons2">
+                    <div class="flexing">
+                        <div class="icons">
                             <i class="fa-solid fa-location-dot"></i><br>
                             <i class="fa-solid fa-bed"></i><br>
                             <i class="fa-solid fa-ruler-combined"></i> 
                         </div>
-                        <div class="iconsinfo2">
+                        <div class="iconsinfo">
                             <p> Jumeirah</p><br>
                             <p> Studio, 2 & 3 Bedroom</p><br>
                             <p> 0-0 Sqft</p>
@@ -116,20 +128,20 @@
                 </div>
             </div>
 
-            <div class="card3">
+            <div class="card">
                 <img src="../imges/cards/card3.jfif" alt="">
-                <p class="sale3">For Sale</p>
-                <p class="time3">New Launch</p>
-                <p class="price3">AED 1,140,000.00</p>
-                <div class="about3">
+                <p class="sale">For Sale</p>
+                <p class="time">New Launch</p>
+                <p class="price">AED 1,140,000.00</p>
+                <div class="about">
                     <h2><strong>330 Riverside Crecent</strong></h2>
-                    <div class="flexing3">
-                        <div class="icons3">
+                    <div class="flexing">
+                        <div class="icons">
                             <i class="fa-solid fa-location-dot"></i><br>
                             <i class="fa-solid fa-bed"></i><br>
                             <i class="fa-solid fa-ruler-combined"></i> 
                         </div>
-                        <div class="iconsinfo3">
+                        <div class="iconsinfo">
                             <p> Dubai</p><br>
                             <p> 2 & 3 Bedroom</p><br>
                             <p> - Sqft</p>
@@ -142,21 +154,21 @@
 
 
 
-        <div class="cards-rows2">
-            <div class="card4">
+        <div class="cards-rows">
+            <div class="card">
                 <img src="../imges/cards/card4.avif" alt="">
-                <p class="sale4">For Sale</p>
-                <p class="time4">New Launch</p>
-                <p class="price4">AED 1,100,000.00</p>
-                <div class="about4">
+                <p class="sale">For Sale</p>
+                <p class="time">New Launch</p>
+                <p class="price">AED 1,100,000.00</p>
+                <div class="about">
                     <h2><strong>Sobha One</strong></h2>
-                    <div class="flexing4">
-                        <div class="icons4">
+                    <div class="flexing">
+                        <div class="icons">
                             <i class="fa-solid fa-location-dot"></i><br>
                             <i class="fa-solid fa-bed"></i><br>
                             <i class="fa-solid fa-ruler-combined"></i> 
                         </div>
-                        <div class="iconsinfo4">
+                        <div class="iconsinfo">
                             <p> Dubai</p><br>
                             <p> 2 & 3 Bedroom</p><br>
                             <p> 0-0 Sqft</p>
@@ -165,15 +177,15 @@
                 </div>
             </div>
 
-            <div class="card5">
+            <div class="card">
                 <img src="../imges/cards/card5.jfif" alt="">
-                <p class="sale5">For Sale</p>
-                <p class="time5">New Launch</p>
-                <p class="price5">AED 546,408.00</p>
-                <div class="about5">
+                <p class="sale">For Sale</p>
+                <p class="time">New Launch</p>
+                <p class="price">AED 546,408.00</p>
+                <div class="about">
                     <h2><strong>Jannat By Deyaar</strong></h2>
-                    <div class="flexing5">
-                        <div class="icons5">
+                    <div class="flexing">
+                        <div class="icons">
                             <i class="fa-solid fa-location-dot"></i><br>
                             <i class="fa-solid fa-bed"></i><br>
                             <i class="fa-solid fa-ruler-combined"></i> 
@@ -187,20 +199,20 @@
                 </div>
             </div>
 
-            <div class="card6">
+            <div class="card">
                 <img src="../imges/cards/card6.jpeg" alt="">
-                <p class="sale6">For Sale</p>
-                <p class="time6">New Launch</p>
-                <p class="price6">AED 2,600,000.00</p>
-                <div class="about6">
+                <p class="sale">For Sale</p>
+                <p class="time">New Launch</p>
+                <p class="price">AED 2,600,000.00</p>
+                <div class="about">
                     <h2><strong>Damac Lights De GRISOGONO</strong></h2>
-                    <div class="flexing6">
-                        <div class="icons6">
+                    <div class="flexing">
+                        <div class="icons">
                             <i class="fa-solid fa-location-dot"></i><br>
                             <i class="fa-solid fa-bed"></i><br>
                             <i class="fa-solid fa-ruler-combined"></i> 
                         </div>
-                        <div class="iconsinfo6">
+                        <div class="iconsinfo">
                             <p> Dubai Maritime City</p><br>
                             <p> 1, 2 & 3 Bedroom</p><br>
                             <p> 1233-1700 Sqft</p>
@@ -213,6 +225,7 @@
     </div>
 
     <div class="section2">
+      <div class="mask">
         <h2>Top Developmers of UAE</h2>
         <p>Real Estate in Popular Developers</p>
         <div class="companies">
@@ -247,6 +260,7 @@
         </div>
         <img src="../imges/cards/burj-khalifa.jpg" class="explore">
         <a href="#" class="explorebtn">EXPLORE MORE</a>
+      </div>
     </div>
 
 
@@ -294,9 +308,15 @@
             <div class="col1">
                 <img src="../imges/logo/logo2dark.jpg" alt=""><br><br>
                 <p><i class="fa-regular fa-compass" style="color: white ;font-size: large;"></i> Office No.2303, Aspin Commercial Tower Sheikh Zyed Road, Dubai </p>
-                <p><i class="fa-solid fa-mobile-screen-button" style="color: white ;font-size: large;"></i>+971 028893849</p>
-                <p><i class="fa-brands fa-square-whatsapp" style="color: white ;font-size: large;"></i>+971 028893849</p>
-                <p><i class="fa-regular fa-envelope" style="color: white ;font-size: large;"></i>info@azagrd.ae</p>
+                <a href="tel:971028892789">
+                    <p><i class="fa-solid fa-mobile-screen-button" style="color: white ;font-size: large;"></i>+971 028893849</p>
+                </a>
+                <a href="tel:971028892789">
+                    <p><i class="fa-brands fa-square-whatsapp" style="color: white ;font-size: large;"></i>+971028892789</p>
+                </a>
+                <a href="mailto:info@azgard.com">
+                    <p><i class="fa-regular fa-envelope" style="color: white ;font-size: large;"></i>info@azagrd.ae</p>
+                </a>
             </div>
             <div class="col2">
                 <h2>Short links</h2><br>
